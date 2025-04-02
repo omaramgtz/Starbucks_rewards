@@ -11,6 +11,9 @@ body{
 
 .padre{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
     background-color:white
     width: 100%;
     height: 50px;
@@ -23,10 +26,10 @@ p:hover{
     color: rgb(0, 129, 70);
 }
 
-#locaicon{
+#localizador{
+    order: 2;
     font-size: 13px;
     font-weight: bold;
-    position: relative;
 }
 
 p{
@@ -34,11 +37,10 @@ p{
 }
 
 #logo{
+    order: 0;
+    justify-content: center;
     width: 40px;
     height: 40px;
-    position: relative;
-    top: 15px;
-    left: 92px;
 }
 
 #menu{
@@ -61,8 +63,8 @@ p{
 }
 
 #boton1{
+    order: 2;
     position: relative;
-    justify-content: flex-end;
     font-size: 12.5px;
     font-weight: bold;
     background-color: #f6f9fb;
@@ -81,6 +83,7 @@ p{
 }
 
 #boton2{
+    order: 2;
     justify-content: flex-end;
     font-size: 12.5px;
     font-weight: bold;
